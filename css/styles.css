@@ -1,0 +1,64 @@
+/* Фон background: #E5E5E5 */
+/* фон блока background: #F5F4FA */
+/* фон футера background: #2F303A */
+/* цвет текста color: #757575;-светлый  #212121; #000000 #FFFFFF
+
+*/
+/* цвет ссылок футера color: rgba(255, 255, 255, 0.6); */
+/* акцент color: #2196F */
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+/* Logo */
+.logo {
+  color: #000;
+}
+.part-logo {
+  color: #2196ff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* site nav */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link.current {
+  color: #2196ff;
+}
+.contact-nav a {
+  color: #757575;
+}
+.contact-nav a:hover,
+.contact-nav a:focus,
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196ff;
+}
+/* Hero */
+.hero-title {
+  color: #212121;
+}
+/* Section */
+.section-title {
+  color: #212121;
+}
+/* Features */
+.features .title {
+  color: #212121;
+}
+/* Work List */
+.work-list {
+}
+/* Team */
+.section-team {
+  background-color: #f5f4fa;
+}
+/* Button */
+.button {
+  color: #ffffff;
+  background-color: #2196ff;
+}
