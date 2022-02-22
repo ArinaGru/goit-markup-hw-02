@@ -11,6 +11,9 @@ body {
   color: #757575;
   font-family: "Roboto", sans-serif;
 }
+[href] {
+  text-decoration: none;
+}
 /* Logo */
 .logo {
   color: #000;
@@ -30,17 +33,30 @@ ul {
 }
 
 /* site nav */
+
 .site-nav .link {
   color: #212121;
   text-decoration: none;
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14
+letter-spacing: 0.02em;
 }
 .site-nav .link.current {
   color: #2196ff;
   text-decoration: none;
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14
+letter-spacing: 0.02em;
 }
 .contact-nav a {
   color: #757575;
   text-decoration: none;
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14
+letter-spacing: 0.02em;
 }
 .contact-nav a:hover,
 .contact-nav a:focus,
@@ -50,17 +66,39 @@ ul {
   text-decoration: none;
 }
 /* Hero */
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
-  color: #212121;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /* Section */
 .section-title {
   color: #212121;
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
 }
 /* Features */
 .features .title {
   color: #212121;
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
+.features .text {font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;}
 /* Work List */
 .work-list {
 }
@@ -68,14 +106,57 @@ ul {
 .section-team {
   background-color: #f5f4fa;
 }
+.team-list h3 {
+color: #212121;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;}
 /* Button */
 .button {
   color: #ffffff;
   background-color: #2196ff;
   cursor: pointer;
+  font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.button:hover, .button:focus {
+  background-color: #ffffff;
+  color: #2196ff;
+  cursor: pointer;
 }
 /* Footer */
-
-.adress a {
+footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   text-decoration: none;
+}
+.logo-footer > span {
+  color: #2196ff;
+}
+
+/* Portfolio */
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: #ffffff;
+  background-color: #2196ff;
+  cursor: pointer;
+}
+.button-portfolio {
+  background-color: #ffffff;
+  color: #2196ff;
+  cursor: pointer;
 }
