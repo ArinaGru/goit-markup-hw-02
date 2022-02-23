@@ -11,9 +11,7 @@ body {
   color: #757575;
   font-family: "Roboto", sans-serif;
 }
-[href] {
-  text-decoration: none;
-}
+
 /* Logo */
 .logo {
   color: #000;
@@ -113,10 +111,15 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;}
+.team-list p {font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
 /* Button */
 .button {
   color: #ffffff;
-  background-color: #2196ff;
+  background-color: #2196f3;
   cursor: pointer;
   font-weight: 700;
 font-size: 16px;
@@ -125,14 +128,17 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+ border: none;
+ border-radius: 4px;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button:hover, .button:focus {
-  background-color: #ffffff;
-  color: #2196ff;
+  background-color: #F5F4FA;
+  color: #212121;
   cursor: pointer;
 }
 /* Footer */
-footer {
+.footer {
   background-color: #2f303a;
 }
 .logo-footer {
@@ -147,16 +153,44 @@ footer {
 .logo-footer > span {
   color: #2196ff;
 }
+.footer .link {color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+font-size: 14px;
+line-height: 1.71
+letter-spacing: 0.03em;}
+.link-contact {color: rgba(255, 255, 255, 0.6);;
+  font-style: normal;
+  text-decoration: none;
+font-size: 14px;
+line-height: 1.71
+letter-spacing: 0.03em;}
+.footer .link:hover, .footer .link:focus, .link-contact:hover, .link-contact:focus{color: aqua;}
 
 /* Portfolio */
-.button-portfolio:hover,
+.button-portfolio.current, .button-portfolio:hover,
 .button-portfolio:focus {
   color: #ffffff;
-  background-color: #2196ff;
+  background-color: #2196f3;
   cursor: pointer;
 }
 .button-portfolio {
-  background-color: #ffffff;
-  color: #2196ff;
+  background-color: #F5F4FA;
+  color: #212121;
   cursor: pointer;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+display: flex;
+text-align: center;
+letter-spacing: 0.03em;
+border: none;
+border-radius: 4px;
 }
+.portfolio-title {color: #212121;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;}
+.portfolio p{font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;}
