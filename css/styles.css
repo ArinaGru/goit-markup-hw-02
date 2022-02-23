@@ -7,7 +7,7 @@
 /* цвет ссылок футера color: rgba(255, 255, 255, 0.6); */
 /* акцент color: #2196F */
 body {
-  background-color: #e5e5e5;
+  background-color: #FFFFFF;
   color: #757575;
   font-family: "Roboto", sans-serif;
 }
@@ -59,9 +59,12 @@ letter-spacing: 0.02em;
 .contact-nav a:hover,
 .contact-nav a:focus,
 .site-nav a:hover,
-.site-nav a:focus {
+.site-nav a:focus,
+.footer .link:hover, 
+.footer .link:focus, 
+.link-contact:hover, 
+.link-contact:focus {
   color: #2196ff;
-  text-decoration: none;
 }
 /* Hero */
 .hero {
@@ -165,7 +168,6 @@ letter-spacing: 0.03em;}
 font-size: 14px;
 line-height: 1.71
 letter-spacing: 0.03em;}
-.footer .link:hover, .footer .link:focus, .link-contact:hover, .link-contact:focus{color: aqua;}
 
 /* Portfolio */
 .button-portfolio.current, .button-portfolio:hover,
