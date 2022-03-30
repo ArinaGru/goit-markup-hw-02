@@ -20,6 +20,20 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.list
+{
+  list-style: none;
+}
+
+.link {
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+
 /* Logo */
 
 .logo {
@@ -36,45 +50,18 @@ body {
   color: var(--accent-color);
 }
 
-.site-nav, 
-.contact-nav, 
-.features, 
-.work-list, 
-.team-list, 
-.footer-list, 
-.portfolio, 
-.portfolio-nav 
-{
-  list-style: none;
-}
-
 /* site nav */
 
 .site-nav .link {
   color: var(--title-text-color);
-  text-decoration: none;
-  font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
   color: var(--accent-color);
-  text-decoration: none;
-  font-weight: 500;
-font-size: 14px;
-line-height: 1.14
-letter-spacing: 0.02em;
 }
 
-.contact-nav a {
+.contact-nav .link {
   color: var(--primary-text-color);
-  text-decoration: none;
-  font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
 }
 
 .contact-nav a:hover,
@@ -128,7 +115,8 @@ text-transform: uppercase;
 
 .features .text {font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+}
 
 /* Work List */
 
@@ -147,7 +135,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+}
 
 .team-list p {font-size: 16px;
 line-height: 1.19;
@@ -187,7 +176,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .logo-footer {
   color: var(--primary-white-color);
-  font-family: "Raleway", sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -205,7 +194,8 @@ font-style: normal;
 text-decoration: none;
 font-size: 14px;
 line-height: 1.71
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+}
 
 .link-contact {
 color: rgba(255, 255, 255, 0.6);;
@@ -213,7 +203,8 @@ font-style: normal;
 text-decoration: none;
 font-size: 14px;
 line-height: 1.71
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+}
 
 /* Portfolio */
 
@@ -225,7 +216,7 @@ letter-spacing: 0.03em;}
 }
 
 .button-portfolio {
-font-family: "Roboto", sans-serif;
+font-family: inherit;
 background-color: #F5F4FA;
 color: var(--title-text-color);
 font-weight: 500;
@@ -242,8 +233,10 @@ cursor: pointer;
 .portfolio-title {color: var(--title-text-color);
 font-size: 18px;
 line-height: 2;
-letter-spacing: 0.06em;}
+letter-spacing: 0.06em;
+}
 
 .portfolio p{font-size: 16px;
 line-height: 1.87;
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+}
